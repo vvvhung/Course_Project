@@ -1,5 +1,5 @@
-This file describes variable in "second_data_set.txt"
-dim =  180 563
+This file describes variable in "second_data_set.txt"\t
+dim =  180 563\t
 A. Column 1 is Activity name, its values are in set 
 1 WALKING
 2 WALKING_UPSTAIRS
