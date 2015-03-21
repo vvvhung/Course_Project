@@ -16,9 +16,9 @@ A. Column 1 is Activity name, its values are in set
 
 6 LAYING
 
-B Column 1 is subject number, its values are in set 1,..,30
+B. Column 2 is subject number, its values are in set 1,..,30
 
-C.561 column are mean of descriptive variable in Features.txt
+C. Last 561 column are mean of descriptive variable in Features.txt
 
 1 tBodyAcc-mean()-X
 2 tBodyAcc-mean()-Y
