@@ -70,7 +70,7 @@ Activity
 #Sets$Activity <- cut(Labels$V1, breaks = Activity$V1, labels = FALSE)
 Sets$Activity <- factor(Labels$V1, levels = Activity$V1, labels = Activity$V2)
 head(Sets)
-write.table(Sets, file = ".\\data\\Activity_named_data_sets.txt",row.names = FALSE,col.names = FALSE)
+write.table(Sets, file = ".\\data\\Activity_named_data_sets.txt",row.names = FALSE)
 
 #5 second tidy Data set
 Sets$Subject <- factor(Subjects$V1)
@@ -78,5 +78,5 @@ library(reshape2)
 meltSets <- melt(Sets,id=c("Activity","Subject"),measure.vars=Variables)
 head(meltSets)
 newSets <-dcast(meltSets,Activity+Subject~variable,mean)
-write.table(newSets, file = ".\\data\\second_data_set.txt",row.names = FALSE,col.names = FALSE)
+write.table(newSets, file = ".\\data\\second_data_set.txt",row.names = FALSE)
 
