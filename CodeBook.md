@@ -1,14 +1,25 @@
-This file describes variable in "second_data_set.txt"\t
-dim =  180 563\t
+This file describes variable in "second_data_set.txt"
+
+dim =  180 563
+
 A. Column 1 is Activity name, its values are in set 
+
 1 WALKING
+
 2 WALKING_UPSTAIRS
+
 3 WALKING_DOWNSTAIRS
+
 4 SITTING
+
 5 STANDING
+
 6 LAYING
+
 B Column 1 is subject number, its values are in set 1,..,30
-C.561 column are descriptive variable in Features.txt
+
+C.561 column are mean of descriptive variable in Features.txt
+
 1 tBodyAcc-mean()-X
 2 tBodyAcc-mean()-Y
 3 tBodyAcc-mean()-Z
