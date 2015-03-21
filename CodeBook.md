@@ -18,7 +18,7 @@ A. Column 1 is Activity name, its values are in set
 
 B. Column 2 is subject number, its values are in set 1,..,30
 
-C. Last 561 column are mean of descriptive variable in Features.txt
+C. Last 561 column are mean of descriptive variable in Features.txt (477 first are 477 levels of this set, lasts are NAs) 
 
 1 tBodyAcc-mean()-X
 2 tBodyAcc-mean()-Y
