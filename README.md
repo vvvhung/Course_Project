@@ -2,6 +2,7 @@
 Code R for Course Project
 
 This scrip perform:
+
 1. Download data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
  
 2.  Merges the training and the test sets to create one data set. write data to X.txt, y.txt, subject.txt (code: #1 Subjects,#1 Labels, #1 SET)
